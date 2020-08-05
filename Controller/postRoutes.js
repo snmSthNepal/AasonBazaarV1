@@ -1,7 +1,3 @@
-//let app = require("./../app.js")
-
-//console.log(app.courses)
-
 module.exports = function (app, db) {
     app.post("/note", function (req, res) {
         res.send("Generated message for the post request")

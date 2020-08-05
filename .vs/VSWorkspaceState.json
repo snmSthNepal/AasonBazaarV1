@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\routes"
+    "\\Controller",
+    "\\View"
   ],
-  "SelectedNode": "\\app.js",
+  "SelectedNode": "\\Controller\\deleteRoutes.js",
   "PreviewInSolutionExplorer": false
 }

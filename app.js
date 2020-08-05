@@ -1,9 +1,9 @@
 const http = require("http")
-const fs = reqiure("fs")
+const fs = require("fs")
 const express = require("express")
 const app = express()
 const port = 8080
-require("./routes")(app, {})
+require("./Controller")(app, {})
 app.use(express.json())
 
 var courses = [
